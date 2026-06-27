@@ -11,7 +11,7 @@ pipeline{
 
     stage('Build Image'){
         steps{
-            sh "docker build -t=aksdet/selenium"
+            sh "docker build -t=aksdet/selenium ."
 
         }
     }
